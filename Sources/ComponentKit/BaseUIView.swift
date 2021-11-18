@@ -28,7 +28,7 @@ open class BaseUIView: UIView {
 		setupView()
 	}
 	
-	public func setupView() {
+	open func setupView() {
 		translatesAutoresizingMaskIntoConstraints = false
 	}
 	

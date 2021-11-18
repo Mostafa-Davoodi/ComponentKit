@@ -13,7 +13,7 @@ open class EmptyView: BaseUIView {
 		.zero
 	}
 	
-	public override func setupView() {
+	open override func setupView() {
 		super.setupView()
 		setContentCompressionResistancePriority(.init(1), for: .horizontal)
 		setContentCompressionResistancePriority(.init(1), for: .vertical)

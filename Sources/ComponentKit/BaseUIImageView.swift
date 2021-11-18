@@ -28,7 +28,7 @@ open class BaseUIImageView: UIImageView {
 		setupView()
 	}
 	
-	public func setupView() {
+	open func setupView() {
 		translatesAutoresizingMaskIntoConstraints = false
 	}
 	

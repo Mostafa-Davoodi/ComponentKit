@@ -28,7 +28,7 @@ open class BaseUIScrollView: UIScrollView {
 		setupView()
 	}
 	
-	public func setupView() {
+	open func setupView() {
 		translatesAutoresizingMaskIntoConstraints = false
 	}
 }

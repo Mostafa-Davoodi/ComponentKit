@@ -30,7 +30,7 @@ open class BaseUITextField: UITextField {
 		setupView()
 	}
 	
-	public func setupView() {
+	open func setupView() {
 		translatesAutoresizingMaskIntoConstraints = false
 	}
 	

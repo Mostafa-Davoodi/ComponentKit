@@ -8,7 +8,7 @@
 import UIKit
 
 open class VScrollableView: ScrollableView {
-	public override func setupView() {
+	open override func setupView() {
 		super.setupView()
 		
 		NSLayoutConstraint.activate([

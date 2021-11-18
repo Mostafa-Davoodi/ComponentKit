@@ -47,7 +47,7 @@ open class ScrollableView: BaseUIScrollView {
 		NSLayoutConstraint.deactivate(view.constraints)
 	}
 	
-	public override func setupView() {
+	open override func setupView() {
 		super.setupView()
 
 		addSubview(contentWrapper)

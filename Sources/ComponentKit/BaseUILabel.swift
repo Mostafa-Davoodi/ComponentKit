@@ -28,7 +28,7 @@ open class BaseUILabel: UILabel {
 		setupView()
 	}
 	
-	public func setupView(){
+	open func setupView(){
 		translatesAutoresizingMaskIntoConstraints = false
 	}
 	

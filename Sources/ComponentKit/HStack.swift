@@ -8,7 +8,7 @@
 import UIKit
 
 open class HStack: BaseUIStackView {
-	public override func setupView() {
+	open override func setupView() {
 		super.setupView()
 		axis = .horizontal
 	}

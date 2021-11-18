@@ -28,7 +28,7 @@ open class BaseUIStackView: UIStackView {
 		setupView()
 	}
 	
-	public func setupView() {
+	open func setupView() {
 		translatesAutoresizingMaskIntoConstraints = false
 	}
 	

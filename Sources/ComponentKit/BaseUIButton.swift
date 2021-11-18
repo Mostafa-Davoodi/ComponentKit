@@ -28,7 +28,7 @@ open class BaseUIButton: UIButton {
 		setupView()
 	}
 	
-	public func setupView() {
+	open func setupView() {
 		translatesAutoresizingMaskIntoConstraints = false
 	}
 	
